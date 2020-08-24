@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]>      <html class="no-js oldie" lang="zh-CN"> <![endif]-->
+<!--[if IE 9]>      <html class="no-js ie9" lang="zh-CN"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="zh-CN" class="no-js "> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<meta name="renderer" content="webkit">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<title>壹周速读：在视觉和体验之间，设计师要如何取舍？ | 优设网 - UISDC</title>
+	<meta content="壹周速读,干货,干货合集,干货大合集,开发者干货,设计师干货,设计干货,优设,优设网,优秀网页设计联盟,网页设计教程,PS教程,AI教程,设计文章,设计讲座,学设计,设计网站,设计平台,你丫才美工" name="keywords" />
+	<meta content="鱼与熊掌不可兼得。在设计的时候，好视觉和好体验可能很难兼顾，设计需求和运营需求可能会有冲突，设计目标和产品目标可能有冲突，设计师总是要做取舍。在做 UI 和 UX 设计的时候，如何处理矛盾?" name="description" />
+	<link rel="apple-touch-icon-precomposed" href="https://image.uisdc.com/wp-content/uploads/2018/05/uisdc-ico-apple.jpg" />
+	<link rel="apple-touch-icon" sizes="76x76"   href="https://image.uisdc.com/wp-content/uploads/2018/05/uisdc-ico-apple.jpg" />
+	<link rel="apple-touch-icon" sizes="120x120" href="https://image.uisdc.com/wp-content/uploads/2018/05/uisdc-ico-apple.jpg" />
+	<link rel="apple-touch-icon" sizes="152x152" href="https://image.uisdc.com/wp-content/uploads/2018/05/uisdc-ico-apple.jpg" />
+	<link rel="apple-touch-icon" sizes="180x180" href="https://image.uisdc.com/wp-content/uploads/2018/05/uisdc-ico-apple.jpg" />
+  <meta content='优设网' name='Author' />
+	<link rel="canonical" href="https://www.uisdc.com/quick-reading-weekly-vol69" />
+<link rel='shortlink' href='https://www.uisdc.com/?p=385919' />
+	<link rel="stylesheet" href="https://www.uisdc.com/wp-content/themes/U/ui/css/fontello.css?v=2.5.19" type="text/css" media="all" />
+	<link rel="stylesheet" href="https://www.uisdc.com/wp-content/themes/U/ui/css/uisdc.css?v=2.5.19" type="text/css" media="all" />
+	<!--[if lt IE 9]>
+  <script type="text/javascript">
+    location.href="https://www.uisdc.com/ie8/?re=https%3A%2F%2Fwww.uisdc.com%2Fquick-reading-weekly-vol69";
+  </script>
+	<![endif]-->
+	<script type="text/javascript">
+	var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+	var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; //判断是否IE<11浏览器
+	var isIE11 = userAgent.indexOf('Trident') > -1 && userAgent.indexOf("rv:11.0") > -1;
+	if (isIE) {
+		document.write('<link rel="stylesheet" href="https://www.uisdc.com/wp-content/themes/U/ui/css/ie9.css?v=2.5.19" type="text/css" media="all" />');
+	}
+	</script>
+				<script>
+		var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "//hm.baidu.com/hm.js?7aeefdb15fe9aede961eee611c7e48a5";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+		</head>
+<body class="post-template-default single single-post postid-385919 single-format-standard">
+<div class="header-fixed-bg"> </div>
+<div class="header">
+  <div class="container clearfix">
+    <h2 class="logo fl">
+      <span class="h-navi modal-open" data-modal-id="modal_menu">
+        菜单 <i class="ico-navi"></i>
+      </span>
+      <a href="https://www.uisdc.com" class="a-glass"> <i class="logo-icon thumb"></i> <span>优设网 - UISDC</span> </a>
+    </h2>
+    <div class="site-menu fl"> <ul id="primary_menu" class="menu-primary"><li id="menu-item-31935" class="item-0 "><a href="https://www.uisdc.com" class="link-0"><span>首页</span></a></li>
+<li id="menu-item-250995" class="item-0 current-menu-item"><a href="https://www.uisdc.com/archives" class="link-0" data-component="dropdown"  data-target="allposts_dropdown" ><span>设计文章</span></a></li>
+<li id="menu-item-341988" class="item-0 "><a href="/zt" class="link-0" data-component="dropdown"  data-target="hotcats_dropdown" ><span>热门频道 <i class="hot-icon"></i></span></a></li>
+<li id="menu-item-249823" class="item-0 "><a target="_blank" href="https://hao.uisdc.com" class="link-0" data-component="dropdown"  data-target="hao_dropdown" ><span>网址导航</span></a></li>
+<li id="menu-item-279636" class="item-0 "><a target="_blank" href="https://xue.uisdc.com/" class="link-0" data-component="dropdown"  data-target="xue_dropdown" ><span><span style="color:#ff6000">培训课程 <i class="hot-icon"></i></span></a></li>
+<li id="menu-item-279639" class="item-0 "><a target="_blank" href="https://uiiiuiii.com/" class="link-0" data-component="dropdown"  data-target="uiii_dropdown" ><span>教程与灵感</span></a></li>
+<li id="menu-item-368518" class="item-0 "><a target="_blank" href="https://uiiiuiii.com/tool/typeface" class="link-0"><span>免费字体</span></a></li>
+<li id="menu-item-279640" class="item-0 has-children"><a target="_blank" href="https://www.uisdc.com/about" class="link-0"><span>关于我们</span></a>
+<ul class="sub-nav nav-1">
+	<li id="menu-item-341990" class="item-1 "><a target="_blank" href="https://www.uisdc.com/about" class="link-1"><span><i class="icon-about"></i> 联系我们</span></a></li>
+	<li id="menu-item-279642" class="item-1 "><a target="_blank" href="https://www.uisdc.com/uisdc-submit-specifications" class="link-1"><span><i class="icon-Contribute"></i> 文章投稿</span></a></li>
+	<li id="menu-item-279643" class="item-1 "><a target="_blank" href="https://wpa.qq.com/msgrd?v=3&amp;uin=2650232288&amp;site=qq&amp;menu=yes" class="link-1"><span><i class="icon-comme"></i> 意见反馈</span></a></li>
+	<li id="menu-item-341991" class="item-1 "><a target="_blank" href="https://www.uisdc.com/ad" class="link-1"><span><i class="icon-Business"></i> 广告商务</span></a></li>
+</ul></li>
+</ul> </div>
+    <div class="header-login-search fr">
+      <div class="header-search fl"> <a href="https://www.uisdc.com?s=" data-component="dropdown-click" data-target="search_dropdown"> <i class="icon-search"></i> 搜索 </a> </div>
+      <div class="login-panel fr">
+        <ul>
+          <li id="login">
+            <a href="#" class="avatar_a modal-open" data-modal-id="modal_login"> <i class="avatar thumb"></i> </a>
+            <div class="login-down">
+              <div class="login-div notlogin">
+                <div class="info">
+                  <div class="info-thumb"> <i class="thumb" style="background-image:url(https://image.uisdc.com/wp-content/uploads/2018/06/avatar-uisdc-chat.png);"></i> </div>
+                  <h2 class="user-name">您还未登录</h2>
+                  <h4 class="user-info">登录后即可体验更多功能</h4>
+                  <a href="#" class="modal-open btn btn-orange info-btn" data-modal-id="modal_login"> 立即登录 </a>
+
+                </div>
+                <div class="main">
+                  <div class="main-menu">
+                    <div class="item"><div class="item-content"><span class="item_a"><i class="icon-heart-empty"></i>文章收藏</span></div></div><div class="item"><div class="item-content"><span class="item_a"><i class="icon-down"></i>资源下载</span></div></div><div class="item"><div class="item-content"><a class="item_a" href="https://www.uisdc.com/talk" target="_blank"><i class="icon-topic"></i>提问答疑</a></div></div><div class="item"><div class="item-content"><span class="item_a"><i class="icon-comm"></i>评论互动</span></div></div>                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="topShow postTopShow container">
+  <div class="kind"><div class="spark_rm">
+<span class="hidden"><a target="_blank" href="https://xue.uisdc.com/detail?id=5d133b27d8071825ebce60c3&c=content-top" class="has_border"><img src="https://image.uisdc.com/wp-content/uploads/2020/08/dkt-xiaochan-0823.jpg" /></a></span>
+<span class="hidden"><a target="_blank" href="https://xue.uisdc.com/detail?id=5d133b8ad8071825ebce60c6&c=content-top" class="has_border"><img src="https://image.uisdc.com/wp-content/uploads/2020/08/mushu-ui-dkt-08163.jpg" /></a></span>
+</div></div></div>
+
+<div class="crumbs container hide_sm">
+    <ol class="breadcrumb">
+		<li><a href="https://www.uisdc.com/" title="优设网 &#8211; UISDC">首页</a> </li>
+    <li><a href="/archives">设计文章</a></li>																		<li><a href="https://www.uisdc.com/category/tools-download">神器推荐</a></li>
+<li>正文</li>  </ol>
+</div>
+  <div class="top-cats hide_sm">
+    <div class="container">
+      <div class="items">
+        <ul>
+        <li class="item"><a class="" href="/archives" target="_blank"> <i class="icon icon-allposts"></i> 全部</a></li><li class="item"><a class="" href="https://www.uisdc.com/category/uiicon" target="_blank"> <i class="icon icon-ui"></i> UI</a></li><li class="item"><a class="" href="https://www.uisdc.com/category/graphic" target="_blank"> <i class="icon icon-graphic"></i> 平面</a></li><li class="item"><a class="" href="https://www.uisdc.com/category/element-of-web-ui" target="_blank"> <i class="icon icon-web"></i> 网页</a></li><li class="item"><a class="" href="https://www.uisdc.com/category/draw" target="_blank"> <i class="icon icon-painting"></i> 手绘</a></li><li class="item"><a class="" href="https://www.uisdc.com/category/e-commerce" target="_blank"> <i class="icon icon-e-commerce"></i> 电商</a></li><li class="item"><a class="" href="https://www.uisdc.com/category/interaction" target="_blank"> <i class="icon icon-interactive"></i> 交互</a></li><li class="item"><a class="" href="https://www.uisdc.com/category/product" target="_blank"> <i class="icon icon-pm"></i> 产品</a></li><li class="item"><a class="" href="https://www.uisdc.com/category/hot-download" target="_blank"> <i class="icon icon-download"></i> 下载</a></li><li class="item"><a class="current" href="https://www.uisdc.com/category/tools-download" target="_blank"> <i class="icon icon-site"></i> 神器</a></li><li class="item"><a class="" href="https://www.uisdc.com/category/work-blueprint" target="_blank"> <i class="icon icon-experience"></i> 职场</a></li>        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="post-header">
+  <div class="container">
+        <h1 class="post-title" id="post_title">壹周速读：在视觉和体验之间，设计师要如何取舍？</h1>
+    <h4 class="post-meta">
+      <span class="remain hide_sm"> <i class="icon-time"></i> 阅读本文需 7 分钟 </span>
+      <span class="editor"> <a href="https://www.uisdc.com/author/chenzimu7" target="_blank"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2018/06/avatar-uisdc-chat.png)"></i></a> 推荐： <a href="https://www.uisdc.com/author/chenzimu7" target="_blank">陈子木</a> </span>
+            <span class="time" title="2020-08-24 02:44:24"> 10小时前 </span>
+            <span class="comment"> <a href="#post_comment">评论区</a> </span>
+    </h4>
+  </div>
+</div>
+<div class="content container post-content">
+  <div class="main">
+    <div class="article-main">
+  <div class="article">
+        <p><span class="img-zoom"><img alt="壹周速读：在视觉和体验之间，设计师要如何取舍？" src="https://image.uisdc.com/wp-content/uploads/2020/08/quick-reading-weekly-vol69-1.jpg" width="750" height="168" class="alignnone size-full wp-image-385934" /></span></p>
+<p>鱼与熊掌不可兼得。在设计的时候，好视觉和好体验可能很难兼顾，设计需求和运营需求可能会有冲突，设计目标和产品目标可能有冲突，设计师总是要做取舍。在做 UI 和 UX 设计的时候，如何处理矛盾？这周的设计文章里，不少都探讨了关于取舍的问题。</p>
+<h4><span class="auto_menu">设计趋势</span></h4>
+<p><span class="img-zoom"><img alt="壹周速读：在视觉和体验之间，设计师要如何取舍？" src="https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-dt-20200820-36.gif" width="600" height="338" class="aligncenter size-full" /></span></p>
+<p>我们正身处在一个内容快速消费的时代。长短视频，动画电影，互动装置等形式能够更容易吸引用户的注意力，无论是消费者，创作者或是设计的从业者，制作的门槛降低了，以往是一个团队的输出，现在一个人也能够打造高质量的爆款，人人都是内容的生产者成为了这个时代的标签。这篇文章从设计从业者的角度出发，从摄影摄像，视频动画，动态图形，交互装置等四个纬度来阐述内容设计的制作方法与近几年的风格趋势。</p>
+<p><div class="tuwen_link"><a href="https://www.uisdc.com/2020-2021-multimedia-trend" target="_blank"><div class="item_thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-banner-20200819-1.jpg)"></i></div><div class="item_main"><h2>腾讯万字干货！2020-2021 设计趋势报告：多媒体篇</h2><p>伴随着移动互联网的快速发展，5G通信，人工智能，物联网等新技术的发展也越趋成熟，人们接触信息的效率不断在提高，接受信息的纬度也更广泛，如何消化我们在生活中被大量切割的碎片化时间，如何能让用户更聚焦内容不被打扰，拉长用户的停留时间，我们正身处在一个内容快速消费的时代。</p><span class="btn btn-orange-border">阅读文章 <i>&gt;&gt;</i> </span></div></a></div></p>
+<p><span class="img-zoom"><img alt="壹周速读：在视觉和体验之间，设计师要如何取舍？" src=" https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-dx-20200813-3.gif" width="1000" height="387" class="aligncenter size-full" /></span></p>
+<p>如果你正在学习动效设计，那么这篇动效设计的入门文章一定要好好收藏！动效的类别，为什么要学习动效，以及动效的 5点规则、移动 APP 的动效分类等等，都融于这一片文章当中！</p>
+<p><div class="tuwen_link"><a href="https://www.uisdc.com/app-dynamic-design-science" target="_blank"><div class="item_thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-banner-20200813-4.jpg)"></i></div><div class="item_main"><h2>写给新人的App动效设计方案基础科普</h2><p>[m]什么是动效[/m]
+移动APP交互动效：包括那些能够为产品赋予生机的动态的界面元素及视觉效果，这些交互效果通常与特定的响应行为相关，甚至包括那些与交互行为没有直接关联的临时状态。</p><span class="btn btn-orange-border">阅读文章 <i>&gt;&gt;</i> </span></div></a></div></p>
+<h4><span class="auto_menu">UI/UX</span></h4>
+<p><span class="img-zoom"><img alt="壹周速读：在视觉和体验之间，设计师要如何取舍？" src="https://image.uisdc.com/wp-content/uploads/2020/08/qs1.png" class="aligncenter size-full wp-image-385920" /></span></p>
+<p>下拉菜单是UI设计，<a href="https://www.uisdc.com/tag/%e7%bd%91%e9%a1%b5%e8%ae%be%e8%ae%a1" class="tag_a" target="_blank">网页设计</a>中的基础控件，也是平时大家做设计时会用到的常用组件，所以有必要对它进行全面深入的了解。这篇文章非常全面的介绍了下拉菜单的设计法则，相信读完会对下拉<a href="https://www.uisdc.com/tag/%e8%8f%9c%e5%8d%95%e8%ae%be%e8%ae%a1" class="tag_a" target="_blank">菜单设计</a>有一个全新的认识，一起来学习吧：</p>
+<p><div class="tuwen_link"><a href="https://www.uisdc.com/ui-cheat-sheet-dropdown" target="_blank"><div class="item_thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-banner-20200817-4.jpg)"></i></div><div class="item_main"><h2>如何做好下拉菜单细节设计？来看这篇超全面分析！</h2><p>下拉菜单是UI设计，网页设计中的基础控件，也是平时大家做设计时会用到的常用组件，所以有必要对它进行全面深入的了解。</p><span class="btn btn-orange-border">阅读文章 <i>&gt;&gt;</i> </span></div></a></div></p>
+<p><span class="img-zoom"><img alt="壹周速读：在视觉和体验之间，设计师要如何取舍？" src="https://image.uisdc.com/wp-content/uploads/2020/08/qs2.png" class="aligncenter size-full wp-image-385920" /></span></p>
+<p>我们可能认为App顶部栏的组成很简单不需要太多精力，实际上要设计一个精确、美观、和用户目标相匹配的顶部栏并不容易。为了试图分析App顶部栏设计的某些模式和规则，研究了100多个应用程序。这篇文章就带大家一起了解App顶部栏的组成、变化，以及如何设计顶部栏的交互：</p>
+<p><div class="tuwen_link"><a href="https://www.uisdc.com/app-top-bar" target="_blank"><div class="item_thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-banner-20200816-3.jpg)"></i></div><div class="item_main"><h2>研究了100多个App后，总结了顶部栏UI设计的模式和规则</h2><p>我们可能认为App顶部栏的组成很简单不需要太多精力，实际上要设计一个精确、美观、和用户目标相匹配的顶部栏并不容易。</p><span class="btn btn-orange-border">阅读文章 <i>&gt;&gt;</i> </span></div></a></div></p>
+<p><span class="img-zoom"><img alt="壹周速读：在视觉和体验之间，设计师要如何取舍？" src="https://image.uisdc.com/wp-content/uploads/2020/08/qs3.png" class="aligncenter size-full wp-image-385920" /></span></p>
+<p>在平时工作中很多设计师往往会遇到这种情况，领导和自己的想法产生比较大的冲突，特别是电商设计师，运营一直想突出信息放大放大，而自己却只想将画面设计的更漂亮，到底如何做才是正确的？而且每个设计师对设计也各持有自己的一套独特见解，那么这种现象出现的根本原因是什么呢？关键点其实在这里：</p>
+<p><div class="tuwen_link"><a href="https://www.uisdc.com/design-and-marketing" target="_blank"><div class="item_thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-banner-20200816-2.jpg)"></i></div><div class="item_main"><h2>电商设计师从普通到顶尖，可能就差这个知识点</h2><p>在平时工作中很多设计师往往会遇到这种情况，领导和自己的想法产生比较大的冲突，特别是电商设计师，运营一直想突出信息放大放大，而自己却只想将画面设计的更漂亮，到底如何做才是正确的?</p><span class="btn btn-orange-border">阅读文章 <i>&gt;&gt;</i> </span></div></a></div></p>
+<p><span class="img-zoom"><img alt="壹周速读：在视觉和体验之间，设计师要如何取舍？" src="https://image.uisdc.com/wp-content/uploads/2020/08/qs4.png" class="aligncenter size-full wp-image-385920" /></span></p>
+<p>是不是会经常碰到这样的情况：好不容易将页面的功能和体验给优化好，就会有一些「不懂欣赏」的产品找你的麻烦，他们会说：「这个页面太空，用户找不到自己想要的内容，一屏往下滑不少才能看到其他重要信息。」那么，到底要如何解决UX设计好看又无用的问题？看这里：</p>
+<p><div class="tuwen_link"><a href="https://www.uisdc.com/good-looking-and-useless-ux-design" target="_blank"><div class="item_thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-banner-20200818-4.jpg)"></i></div><div class="item_main"><h2>为什么你会做好看且无用的UX设计？</h2><p>[m]实现「好看且无用」的几个方式[/m]
+1. 只专注于眼前的画面：忽视屏效的杂志风设计
+
+在开始设计的一刻先忘掉用户来这个界面干啥子，又要从这个界面去哪里。</p><span class="btn btn-orange-border">阅读文章 <i>&gt;&gt;</i> </span></div></a></div></p>
+<p><span class="img-zoom"><img alt="壹周速读：在视觉和体验之间，设计师要如何取舍？" src="https://image.uisdc.com/wp-content/uploads/2020/08/qs5.png" class="aligncenter size-full wp-image-385920" /></span></p>
+<p>在进行 UI 设计的时候，很多小技巧能够恰到好处地提升界面的设计视觉效果、<a href="https://www.uisdc.com/topic/%e7%94%a8%e6%88%b7%e4%bd%93%e9%aa%8c" class="tag_a" target="_blank">用户体验</a>。那些让我们看了一眼就能过目不忘的产品，并非一定就是行业中靠前的翘楚，吸引我们的只是一个小小的细节，如何将这些优秀细节亮点融入自己的产品并符合调性，需要长期日积月累。这 12 个产品细节就非常值得学习：</p>
+<p><div class="tuwen_link"><a href="https://www.uisdc.com/12-product-design-details" target="_blank"><div class="item_thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-banner-20200812-11.jpeg)"></i></div><div class="item_main"><h2>12个产品细节剖析，让你看看大厂是如何做设计的</h2><p>在进行 UI 设计的时候，很多小技巧能够恰到好处地提升界面的设计视觉效果、用户体验。</p><span class="btn btn-orange-border">阅读文章 <i>&gt;&gt;</i> </span></div></a></div></p>
+<p><span class="img-zoom"><img alt="壹周速读：在视觉和体验之间，设计师要如何取舍？" src="https://image.uisdc.com/wp-content/uploads/2020/08/qs6.png" class="aligncenter size-full wp-image-385920" /></span></p>
+<p>即使是一个专职的产品设计师也不一定会经常从零开始设计师产品。但是，从零开始设计一个产品，总会有很多问题需要考虑。这篇文章来自资深产品设计师 Danny Sapio ，他梳理了 10 个重要的产品设计的 UI/UX 设计经验，希望能够带你少走弯路：</p>
+<p><div class="tuwen_link"><a href="https://www.uisdc.com/10-ui-ux-design-lessons" target="_blank"><div class="item_thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/sds.gif)"></i></div><div class="item_main"><h2>从零开始设计产品的 10 个 UI/UX 启示</h2><p>2016 年的时候，我意识到一个很重要的问题：我一直都没有实现自己的目标：学习新技能、结识新朋友、保持身心健康，等等等等。</p><span class="btn btn-orange-border">阅读文章 <i>&gt;&gt;</i> </span></div></a></div></p>
+<h4><span class="auto_menu">视觉·版式</span></h4>
+<p><span class="img-zoom"><img alt="壹周速读：在视觉和体验之间，设计师要如何取舍？" src="https://image.uisdc.com/wp-content/uploads/2020/08/qs7.png" class="aligncenter size-full wp-image-385920" /></span></p>
+<p>构图是在有限的空间内把文字、色彩、图形等元素结合起来构成画面，使作品不仅具有美感，还能清晰表达设计者的目的。不同构图能使画面产生不同的视觉变化，进而给观者带来不同的心理感受。同的心理感受。这篇文章分享了上下构图的使用方法，这种构图形式具有良好的视觉效果，也比较容易掌握，是非常实用的构图方式：</p>
+<p><div class="tuwen_link"><a href="https://www.uisdc.com/top-and-bottom-composition" target="_blank"><div class="item_thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-banner-20200817-1.jpg)"></i></div><div class="item_main"><h2>用超多案例，帮你掌握「上下构图」的排版技巧</h2><p>构图是在有限的空间内把文字、色彩、图形等元素结合起来构成画面，使作品不仅具有美感，还能清晰表达设计者的目的。</p><span class="btn btn-orange-border">阅读文章 <i>&gt;&gt;</i> </span></div></a></div></p>
+<p><span class="img-zoom"><img alt="壹周速读：在视觉和体验之间，设计师要如何取舍？" src="https://image.uisdc.com/wp-content/uploads/2020/08/qs8.png" class="aligncenter size-full wp-image-385920" /></span></p>
+<p>大部分电商详情页教程都着重教你如何做好首焦图，「产品参数模块」这个部分则鲜有人提。而这篇教程，用超多案例，帮你掌握「产品参数模块」的设计方法：</p>
+<p><div class="tuwen_link"><a href="https://www.uisdc.com/product-parameter-module-design" target="_blank"><div class="item_thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-banner-20200818-3.jpg)"></i></div><div class="item_main"><h2>详情页中最容易被忽略的产品参数模块，该如何设计？</h2><p>大部分电商详情页教程都着重教你如何做好首焦图，「产品参数模块」这个部分则鲜有人提。</p><span class="btn btn-orange-border">阅读文章 <i>&gt;&gt;</i> </span></div></a></div></p>
+<p><span class="img-zoom"><img alt="壹周速读：在视觉和体验之间，设计师要如何取舍？" src="https://image.uisdc.com/wp-content/uploads/2020/08/qs9.png" class="aligncenter size-full wp-image-385920" /></span></p>
+<p>如果说把那些已经被我们熟知的设计师比作是「武林高手」的话，那佐藤修悦就是少林寺里的「扫地僧」，看似平平无奇，实际上是个武功深不可测的智者。为什么这么说呢？因为佐藤修悦做的工作是和设计毫不相关，他是地铁的安保，每天的工作就是负责帮人指路，维持治安，他也没有经历过美学教育，但是他却创作出适合导视的一套字体——修悦体。来看看他的故事吧：</p>
+<p><div class="tuwen_link"><a href="https://www.uisdc.com/shuetsu-sato" target="_blank"><div class="item_thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-banner-20200810-3.jpg)"></i></div><div class="item_main"><h2>看看他，才知道什么是高手在民间</h2><p>提到「佐藤」这个名字，大家第一时间能想到谁?</p><span class="btn btn-orange-border">阅读文章 <i>&gt;&gt;</i> </span></div></a></div></p>
+<p><span class="img-zoom"><img alt="壹周速读：在视觉和体验之间，设计师要如何取舍？" src="https://image.uisdc.com/wp-content/uploads/2020/08/qs10.png" class="aligncenter size-full wp-image-385920" /></span></p>
+<p> K先生的 版式设计三部曲终于更新了，第一篇关于平面构图，第二篇关于文字处理，均是干货：</p>
+<p><div class="tuwen_link"><a href="https://www.uisdc.com/layout-composition" target="_blank"><div class="item_thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/06/uisdc-banner-20200611-1.jpg)"></i></div><div class="item_main"><h2>用超多世界名画和实战案例，帮你学会平面构图</h2><p>不知道大家有没有遇到过这种情况?</p><span class="btn btn-orange-border">阅读文章 <i>&gt;&gt;</i> </span></div></a></div><br />
+<div class="tuwen_link"><a href="https://www.uisdc.com/layout-design-text" target="_blank"><div class="item_thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-banner-20200813-1.jpg)"></i></div><div class="item_main"><h2>高手的版式三部曲系列：文字篇</h2><p>继版式三部曲之构图篇结束之后，时隔几个月终于迎来了这个系列的第二篇内容，就是「文字篇」。</p><span class="btn btn-orange-border">阅读文章 <i>&gt;&gt;</i> </span></div></a></div></p>
+<h4><span class="auto_menu">干货·神器</span></h4>
+<p><span class="img-zoom"><img alt="壹周速读：在视觉和体验之间，设计师要如何取舍？" src="https://image.uisdc.com/wp-content/uploads/2020/08/qs11.png" class="aligncenter size-full wp-image-385920" /></span></p>
+<p>新一轮的设计圈干货大合集来了！这一次的设计干货包含了许多新鲜的好玩意，比如3D手势库和可编辑样机生成工具，当然，还有每一期合集都会有的各种图标、配色和字体资源，来具体看看吧：</p>
+<p><div class="tuwen_link"><a href="https://www.uisdc.com/new-tools-for-designers-august-2020" target="_blank"><div class="item_thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/new-tools-for-designers-august-2020.jpg)"></i></div><div class="item_main"><h2>2020年8月设计圈超实用干货大合集</h2><p>新一轮的设计圈干货大合集来了!</p><span class="btn btn-orange-border">阅读文章 <i>&gt;&gt;</i> </span></div></a></div></p>
+  </div>
+  <div class="article-bt"><a target="_blank" href="https://xue.uisdc.com/detail?id=5d133b27d8071825ebce60c3" class="has_border bdEvent" data-label="文章内"><img  src="https://image.uisdc.com/wp-content/uploads/2020/08/750-uisdcbot-dkt-0823.jpg" /></a></div>  <div class="article-zan-fav">
+    <div class="zan-div">
+      <span class="zan btn btn-orange" data-component="zan" data-pid="385919" data-count="4"> <i class="icon-1-like"></i> <span class="txt">点赞</span> <em class="count">4</em> </span>
+    </div>
+    <div class="fav-div">
+      <span class="fav btn btn-orange-border" data-component="fav" data-id="385919" data-original-count="12" data-count="12"> <i class="icon-1-heart-border"></i> <span class="txt">收藏</span> <em>12</em> </span>
+    </div>
+  </div>
+  <div class="article-info">
+    <p>
+      <a href="https://www.uisdc.com/quick-reading-weekly-vol69" class="btn btn-orange-border copy-link"> <i class="icon-link"></i> 复制本文链接 <input type="text" name="copy" value="https://www.uisdc.com/quick-reading-weekly-vol69" class="copy-content"> </a>
+      文章为作者独立观点不代表优设网立场，<span>未经允许不得转载。</span>
+    </p>
+      </div>
+    <div class="article-tag">
+    <h4>继续阅读与本文标签相同的文章</h4>
+    <div class="tags">
+      <a href="https://www.uisdc.com/tag/%e5%a3%b9%e5%91%a8%e9%80%9f%e8%af%bb" rel="tag">壹周速读</a><a href="https://www.uisdc.com/tag/%e5%b9%b2%e8%b4%a7" rel="tag">干货</a><a href="https://www.uisdc.com/tag/%e5%b9%b2%e8%b4%a7%e5%90%88%e9%9b%86" rel="tag">干货合集</a><a href="https://www.uisdc.com/tag/%e5%b9%b2%e8%b4%a7%e5%a4%a7%e5%90%88%e9%9b%86" rel="tag">干货大合集</a><a href="https://www.uisdc.com/tag/%e5%bc%80%e5%8f%91%e8%80%85%e5%b9%b2%e8%b4%a7" rel="tag">开发者干货</a><a href="https://www.uisdc.com/tag/%e8%ae%be%e8%ae%a1%e5%b8%88%e5%b9%b2%e8%b4%a7" rel="tag">设计师干货</a><a href="https://www.uisdc.com/tag/%e8%ae%be%e8%ae%a1%e5%b9%b2%e8%b4%a7" rel="tag">设计干货</a>    </div>
+  </div>
+  </div>
+<div class="article-paged">
+  <div class="previous prev_next"><a href="/archives" target="_blank" class="flex paged-item"><div class="paged-thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/10/uisdc-bg-article-trans.png)"></i></div><div class="paged-main"><h5>返回目录</h5><h3>每天优设看文章 掌握设计新动向</h3></div></a></div><div class="next prev_next"><a href="https://www.uisdc.com/light-imitation-style" target="_blank" class="flex paged-item"><div class="paged-thumb h-scale"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-banner-20200823-3.jpg)"></i></div><div class="paged-main"><h5>下一篇 <i class="icon-right"></i></h5><h3>饿了么、美团都在用的轻拟物风格，到底是什么？</h3></div></a></div></div>
+<section class="article-related">
+  <div class="section-title"> 继续阅读相关文章 </div>
+  <div class="section-content">
+    <div class="flex">
+      <div class="wrap wrap-items"><div class="item id-343200"><a href="https://www.uisdc.com/quick-reading-weekly-vol31" target="_blank"><div class="item-thumb h-scale"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/11/quick-reading-weekly-vol31-b.jpg)"></i></div><div class="item-main"><h2>壹周速读：产品型 UI 设计师技能包特辑</h2><h5>11862 人阅读</h5></div></a></div><div class="item id-318761"><a href="https://www.uisdc.com/quick-reading-weekly-8" target="_blank"><div class="item-thumb h-scale"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/covers/201905/quick-reading-weekly-8-b.jpg)"></i></div><div class="item-main"><h2>你最想要的，都在壹周速读 vol.08</h2><h5>11087 人阅读</h5></div></a></div><div class="item id-344357"><a href="https://www.uisdc.com/quick-reading-weekly-vol32" target="_blank"><div class="item-thumb h-scale"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/11/quick-reading-weekly-vol32-b.jpg)"></i></div><div class="item-main"><h2>壹周速读：这么多设计干货和神器，恐怕只能先码后用了~</h2><h5>15722 人阅读</h5></div></a></div></div><div class="wrap wrap-items wrap-items-right"><div class="item id-360639"><a href="https://www.uisdc.com/quick-reading-weekly-vol43" target="_blank"><div class="item-thumb h-scale"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/02/quick-reading-weekly-vol43.jpg)"></i></div><div class="item-main"><h2>壹周速读：平面版式设计快速提升指南！</h2><h5>13853 人阅读</h5></div></a></div><div class="item id-372074"><a href="https://www.uisdc.com/quick-reading-weekly-vol55" target="_blank"><div class="item-thumb h-scale"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/05/quick-reading-weekly-vol55.jpg)"></i></div><div class="item-main"><h2>壹周速读：数据指标与分析完全指南</h2><h5>5134 人阅读</h5></div></a></div><div class="item id-384883"><a href="https://www.uisdc.com/quick-reading-weekly-vol68" target="_blank"><div class="item-thumb h-scale"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/quick-reading-weekly-vol68.jpg)"></i></div><div class="item-main"><h2>壹周速读：这些UI、平面、视觉的文章没有一篇是吃素的！</h2><h5>8206 人阅读</h5></div></a></div></div>    </div>
+  </div>
+</section>
+<div class="comment-div" id="post_comment">
+  <h3 class="section-title">发表评论
+  <span class="sub">快来秀出你的观点</span>
+</h3>
+<div class="comment-write">
+  <form class="comment-write-form" action="/" method="post">
+    <input type="hidden" name="pid" value="385919">
+    <input type="hidden" name="parent" value="0">
+    <div class="form-item">
+      <div class="item-title">
+        <span class="user-avatar"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2018/06/avatar-uisdc-chat.png)"></i></span>
+      </div>
+      <div class="item-content"> <span class="user-name"> <input type="text" name="user-name" data-placeholder="欢迎来到优设，试试别填名字..." class="txt txt_user_name"> </span> </div>
+    </div>
+    <div class="form-item">
+      <div class="item-title"> <label for="comment_word">评论</label> </div>
+      <div class="item-content">
+        <textarea name="comment" rows="1" id="comment_word" class="comment-word txt lineLen" data-placeholder="您的评论会经编辑或作者筛选后显示，全站可见，请文明发言。" data-total=800></textarea>
+        <span class="rest"> 还可以输入 <em>800</em> 个字 </span>
+      </div>
+    </div>
+    <div class="form-item form-yzm hidden">
+      <div class="item-title"> <label for="yzm"> 验证码 </label> </div>
+      <div class="item-content">
+        <input type="text" name="yzm" id="yzm" class="txt yzm comment-yzm" data-placeholder="请输入验证码">
+        <img src="" alt="yzm">
+        <input type="hidden" name="prefix" class="yzm_prefix">
+      </div>
+    </div>
+    <div class="error-box hide form-item">
+      <div class="item-title"> &nbsp; </div>
+      <div class="item-content"> </div>
+          </div>
+    <div class="form-item">
+      <div class="item-title"> &nbsp; </div>
+      <div class="item-content">
+        <button type="submit" class="btn btn-orange btn-submit">提交评论</button>
+      </div>
+    </div>
+  </form>
+  <span class="btn-reply-close"> <i class="icon-close"></i> </span>
+</div>
+<div class="comment-list" id="comment_list" data-paged="1" data-pid="385919"></div>
+<div class="content-loading" data-component="loading">
+  <i class="loading-icon"></i> 载入中....
+</div>
+<div class="comment-more hidden">
+  <span class="btn btn-orange btn-more-comments">加载更多评论</span>
+</div>
+<div class="comment-nomore hidden">
+  没有更多评论了
+</div>
+<div class="comment-footer">
+  <div class="comment-footer-main">
+    <div class="item">
+      <span class="hide_sm">评论就这些咯，让大家也知道你的独特见解</span>
+      <a href="#post_comment" class="btn btn-orange-border">立即评论</a>
+    </div>
+    <div class="item">
+      以上留言仅代表用户个人观点，不代表优设立场
+    </div>
+  </div>
+  <i class="ji2-icon" data-bubble="yes"></i>
+</div>
+</div>
+<div class="article-show">
+  <div class="kind"><div class="spark_rm">
+<span class="hidden"><a target="_blank" href="https://xue.uisdc.com/detail?id=5d133b27d8071825ebce60c3&c=content-top" class="has_border"><img src="https://image.uisdc.com/wp-content/uploads/2020/08/dkt-xiaochan-08232.jpg" /></a></span>
+<span class="hidden"><a target="_blank" href="https://xue.uisdc.com/detail?id=5d133b69d8071825ebce60c5&c=content-top" class="has_border"><img src="https://image.uisdc.com/wp-content/uploads/2020/08/dkt-draw-20200802.jpg" /></a></span>
+</div></div></div>
+<div class="post-recommend">
+  <div class="recommend-titles">
+    <a href="/archives" class="current" target="_blank" data-component="tab" data-event="hover" data-tab-wrap=".recommend-list" data-tab-menus=".post-recommend .recommend-titles a" data-tab-target=".recommend-new" data-tab-action="new_posts" data-tab-type="list-default" data-ppp="5">最新文章</a>
+    <a href="/archives" target="_blank" data-component="tab" data-event="hover" data-tab-wrap=".recommend-list" data-tab-menus=".post-recommend .recommend-titles a" data-tab-target=".recommend-hot" data-tab-action="hot_posts" data-tab-type="list-post" data-ppp="5">最热文章</a>
+    <a href="https://www.uisdc.com/tag/%e5%a3%b9%e5%91%a8%e9%80%9f%e8%af%bb" class="hide_sm" target="_blank" data-component="tab" data-event="hover" data-tab-wrap=".recommend-list" data-tab-menus=".post-recommend .recommend-titles a" data-tab-target=".recommend-week" data-tab-action="quick_read" data-tab-type="list-post" data-ppp="5">一周速读</a>
+    <a href="/zt" target="_blank" data-component="tab" data-event="hover" data-tab-wrap=".recommend-list" data-tab-menus=".post-recommend .recommend-titles a" data-tab-target=".recommend-zt" data-tab-action="widget_zt" data-tab-type="list-post" data-ppp="5">专题文章<i class="hot-icon"></i></a>
+  </div>
+  <div class="recommends">
+    <div class="recommend-list">
+      <ul class="recommend-new">
+        <li class="item"><h2 class="title"> <a href="https://www.uisdc.com/quick-reading-weekly-vol69" target="_blank"> <i class="ico-tag"> 最新 </i> 壹周速读：在视觉和体验之间，设计师要如何取舍？ </a> </h2><h4><i class="time">10小时前</i><i class="author">推荐： <a href="https://www.uisdc.com/author/chenzimu7" target="_blank"> 陈子木 </a> </i><span class="tags"><a href="https://www.uisdc.com/tag/%e5%9b%be%e5%ba%93%e7%bd%91%e7%ab%99" target="_blank">图库网站</a><a href="https://www.uisdc.com/tag/%e5%a4%a7%e5%9b%be%e7%bd%91%e7%ab%99" target="_blank">大图网站</a><a href="https://www.uisdc.com/tag/%e7%bd%91%e9%a1%b5%e8%ae%be%e8%ae%a1" target="_blank">网页设计</a><a href="https://www.uisdc.com/tag/%e9%85%b7%e7%ab%99" target="_blank">酷站</a><a href="https://www.uisdc.com/tag/%e9%ab%98%e6%b8%85%e5%9b%be%e7%89%87" target="_blank">高清图片</a></span></h4></li><li class="item"><h2 class="title"> <a href="https://www.uisdc.com/light-imitation-style" target="_blank"> <i class="ico-tag"> 最新 </i> 饿了么、美团都在用的轻拟物风格，到底是什么？ </a> </h2><h4><i class="time">11小时前</i><i class="author">推荐： <a href="" target="_blank"> 超人的电话亭 </a> </i><span class="tags"><a href="https://www.uisdc.com/tag/ui-%e8%ae%be%e8%ae%a1" target="_blank">UI 设计</a><a href="https://www.uisdc.com/tag/%e5%9b%be%e6%a0%87%e8%ae%be%e8%ae%a1" target="_blank">图标设计</a><a href="https://www.uisdc.com/tag/%e7%95%8c%e9%9d%a2%e8%ae%be%e8%ae%a1" target="_blank">界面设计</a><a href="https://www.uisdc.com/tag/%e8%ae%be%e8%ae%a1%e9%a3%8e%e6%a0%bc" target="_blank">设计风格</a><a href="https://www.uisdc.com/tag/%e8%bd%bb%e6%8b%9f%e7%89%a9%e9%a3%8e%e6%a0%bc" target="_blank">轻拟物风格</a></span></h4></li><li class="item"><h2 class="title"> <a href="https://www.uisdc.com/25-color-matching-tools" target="_blank"> <i class="ico-tag"> 最新 </i> 筛选了100个配色工具后，我挑出了这25个！ </a> </h2><h4><i class="time">12小时前</i><i class="author">推荐： <a href="https://www.uisdc.com/author/sstt" target="_blank"> 土拨鼠 </a> </i><span class="tags"><a href="https://www.uisdc.com/tag/%e9%85%8d%e8%89%b2%e5%b7%a5%e5%85%b7" target="_blank">配色工具</a><a href="https://www.uisdc.com/tag/%e9%85%8d%e8%89%b2%e8%bd%af%e4%bb%b6" target="_blank">配色软件</a></span></h4></li><li class="item"><h2 class="title"> <a href="https://www.uisdc.com/middle-form" target="_blank"> <i class="ico-tag"> 最新 </i> 大厂高手出品！中台系统设计指南：表单体验篇 </a> </h2><h4><i class="time">12小时前</i><i class="author">推荐： <a href="" target="_blank"> 熊细辉Neo </a> </i><span class="tags"><a href="https://www.uisdc.com/tag/%e4%b8%ad%e5%8f%b0%e7%b3%bb%e7%bb%9f" target="_blank">中台系统</a><a href="https://www.uisdc.com/tag/%e4%b8%ad%e5%8f%b0%e8%ae%be%e8%ae%a1" target="_blank">中台设计</a><a href="https://www.uisdc.com/tag/%e8%a1%a8%e5%8d%95%e8%ae%be%e8%ae%a1" target="_blank">表单设计</a></span></h4></li><li class="item"><h2 class="title"> <a href="https://www.uisdc.com/solving-product-design-exercises-2" target="_blank">  看过100多份作品集后，总结了这份UX面试通关方法论（下） </a> </h2><h4><i class="time">2天前</i><i class="author">推荐： <a href="https://www.uisdc.com/author/sstt" target="_blank"> 土拨鼠 </a> </i><span class="tags"><a href="https://www.uisdc.com/tag/ux%e8%ae%be%e8%ae%a1" target="_blank">UX设计</a><a href="https://www.uisdc.com/tag/%e6%b1%82%e8%81%8c%e9%9d%a2%e8%af%95" target="_blank">求职面试</a><a href="https://www.uisdc.com/tag/%e8%ae%be%e8%ae%a1%e5%b8%88%e8%81%8c%e5%9c%ba" target="_blank">设计师职场</a><a href="https://www.uisdc.com/tag/%e9%9d%a2%e8%af%95%e6%8a%80%e5%b7%a7" target="_blank">面试技巧</a></span></h4></li>      </ul>
+      <ul class="recommend-hot"></ul>
+      <ul class="recommend-week"></ul>
+      <ul class="recommend-zt"></ul>
+      <div class="more">
+        <a href="/archives" class="btn btn-default">查看更多</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="article-toolkit" data-component="autofixed" data-start=".post-content" data-end=".post-content" data-top="70">
+    <a class="toolkit comment" href="#post_comment"> <i class="icon-comm"></i> <em>评论</em> </a>
+  <span class="toolkit fav" data-component="fav" data-id="385919" data-original-count="12" data-count="12" > <i class="icon-1-heart-border"></i> <span>收藏</span> </span>
+    <span class="toolkit share"> <i class="icon-share"></i> <em>分享</em>
+    <div class="hidden-sm hidden-xs share-div">
+  <h3> </h3>  <ul class="share_ul">
+    <li> </li>    <li class="wechat-li"><a href="#" class="share wechat_qr modal-open" data-modal-id="qr" data-url="https://www.uisdc.com/quick-reading-weekly-vol69" target="_blank" title="分享到微信"><i class="icon-wechat-1"></i></a></li>
+    <li class="sina-li"><a href="http://service.weibo.com/share/share.php?appkey=1934882415&url=https%3A%2F%2Fwww.uisdc.com%2Fquick-reading-weekly-vol69&title=%E5%A5%BD%E6%96%87%EF%BC%81%E5%A3%B9%E5%91%A8%E9%80%9F%E8%AF%BB%EF%BC%9A%E5%9C%A8%E8%A7%86%E8%A7%89%E5%92%8C%E4%BD%93%E9%AA%8C%E4%B9%8B%E9%97%B4%EF%BC%8C%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%A6%81%E5%A6%82%E4%BD%95%E5%8F%96%E8%88%8D%EF%BC%9F+%E5%8E%9F%E6%96%87%E6%88%B3%E2%86%92&content=utf-8&pic=https%3A%2F%2Fimage.uisdc.com%2Fwp-content%2Fuploads%2F2020%2F08%2Fquick-reading-weekly-vol69.jpg" class="share" target="_blank" title="分享到微博"><i class="icon-sina-1"></i></a></li>
+    <li class="qq-li"><a href="http://connect.qq.com/widget/shareqq/index.html?url=https%3A%2F%2Fwww.uisdc.com%2Fquick-reading-weekly-vol69&title=%E5%A5%BD%E6%96%87%EF%BC%81%E5%A3%B9%E5%91%A8%E9%80%9F%E8%AF%BB%EF%BC%9A%E5%9C%A8%E8%A7%86%E8%A7%89%E5%92%8C%E4%BD%93%E9%AA%8C%E4%B9%8B%E9%97%B4%EF%BC%8C%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%A6%81%E5%A6%82%E4%BD%95%E5%8F%96%E8%88%8D%EF%BC%9F+%E5%8E%9F%E6%96%87%E6%88%B3%E2%86%92&summary=&site=baidu&pics=https%3A%2F%2Fimage.uisdc.com%2Fwp-content%2Fuploads%2F2020%2F08%2Fquick-reading-weekly-vol69.jpg" class="share" target="_blank" title="分享到QQ"><i class="icon-QQ"></i></a></li>
+    <li class="qzone-li"><a href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fwww.uisdc.com%2Fquick-reading-weekly-vol69&title=壹周速读：在视觉和体验之间，设计师要如何取舍？&desc=壹周速读：在视觉和体验之间，设计师要如何取舍？&summary=%E5%A5%BD%E6%96%87%EF%BC%81%E5%A3%B9%E5%91%A8%E9%80%9F%E8%AF%BB%EF%BC%9A%E5%9C%A8%E8%A7%86%E8%A7%89%E5%92%8C%E4%BD%93%E9%AA%8C%E4%B9%8B%E9%97%B4%EF%BC%8C%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%A6%81%E5%A6%82%E4%BD%95%E5%8F%96%E8%88%8D%EF%BC%9F+%E5%8E%9F%E6%96%87%E6%88%B3%E2%86%92&site=UiiiUiii&pics=https%3A%2F%2Fimage.uisdc.com%2Fwp-content%2Fuploads%2F2020%2F08%2Fquick-reading-weekly-vol69.jpg" class="share" target="_blank" title="分享到QQ空间"><i class="icon-qzone"></i></a></li>
+    <li class="huaban-li"><a href="http://huaban.com/bookmarklet/?url=https%3A%2F%2Fwww.uisdc.com%2Fquick-reading-weekly-vol69&title=%E5%A5%BD%E6%96%87%EF%BC%81%E5%A3%B9%E5%91%A8%E9%80%9F%E8%AF%BB%EF%BC%9A%E5%9C%A8%E8%A7%86%E8%A7%89%E5%92%8C%E4%BD%93%E9%AA%8C%E4%B9%8B%E9%97%B4%EF%BC%8C%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%A6%81%E5%A6%82%E4%BD%95%E5%8F%96%E8%88%8D%EF%BC%9F+%E5%8E%9F%E6%96%87%E6%88%B3%E2%86%92&media=https%3A%2F%2Fimage.uisdc.com%2Fwp-content%2Fuploads%2F2020%2F08%2Fquick-reading-weekly-vol69.jpg" class="share" target="_blank" title="分享到花瓣"><i class="icon-huaban"></i></a></li>
+    <li class="close-li"><span class="close"><i class="icon-close"></i><em class="txt hidden">取消</em></span></li>
+  </ul>
+</div>
+  </span>
+</div>
+  </div>
+  <div class="sidebar" data-component="sidebar-autofixed" data-autofixed=".widget-show,.widget-article-menu">
+    <section class="widget widget-news hide_sm">
+  <h2 class="section-title"> <a href="https://www.uisdc.com/news" target="_blank"> 优设读报 </a> <span class="sub">2020年8月23日 星期日</span> </h2>
+  <div class="section-content">
+    <ul><li> <a href="https://www.uisdc.com/news" target="_blank"> <i class="num">01</i> 广美录取通知书来了！ </a> </li><li> <a href="https://www.uisdc.com/news" target="_blank"> <i class="num">02</i> 日本 SF 大奖《星云赏》揭晓，《忍者蝙蝠侠》斩获漫画部门大奖 </a> </li><li> <a href="https://www.uisdc.com/news" target="_blank"> <i class="num">03</i> 微软正式开放 Win10 新功能：在 PC 端运行 Android 应用 </a> </li><li> <a href="https://www.uisdc.com/news" target="_blank"> <i class="num">04</i> 免费图像网站 Freepik 披露数据泄露事件 </a> </li><li> <a href="https://www.uisdc.com/news" target="_blank"> <i class="num">05</i> 神器推荐：Monkey’s Audio 5.50 发布 APE 音频制作工具 </a> </li></ul>    <div class="viewAll">
+      <a href="https://www.uisdc.com/news" target="_blank" class="btn btn-default"> 查看全部 <i class="icon-right"></i> </a>
+    </div>
+  </div>
+</section>
+<section class="widget widget-wonderful hide_sm">
+  <h2 class="section-title"> 精彩发现 </h2>
+  <div class="section-content">
+    <div class="wonderful-part">
+      <h3> <i class="icon-hunter"></i> 细节猎人 </h3>
+      <div class="part-content">
+        <a href="https://www.uisdc.com/topic/%e8%ae%be%e8%ae%a1%e9%80%bb%e8%be%91" target="_blank">设计逻辑</a><a href="https://www.uisdc.com/topic/%e6%98%93%e7%94%a8%e6%80%a7" target="_blank">易用性</a><a href="https://www.uisdc.com/topic/%e6%83%85%e5%a2%83%e9%a2%84%e5%88%a4" target="_blank">情境预判</a><a href="https://www.uisdc.com/topic/%e8%b6%a3%e5%91%b3%e6%80%a7" target="_blank">趣味性</a><a href="https://www.uisdc.com/topic/%e4%ba%ba%e6%80%a7%e5%8c%96" target="_blank">人性化</a><a href="https://www.uisdc.com/topic/%e4%bf%a1%e6%81%af%e5%91%88%e7%8e%b0" target="_blank">信息呈现</a><a href="https://www.uisdc.com/topic/%e8%85%be%e8%ae%af" target="_blank">腾讯</a><a href="https://www.uisdc.com/topic/%e6%83%85%e6%84%9f%e5%8c%96%e8%ae%be%e8%ae%a1" target="_blank">情感化设计</a><a href="https://www.uisdc.com/topic/%e7%a4%be%e4%ba%a4" target="_blank">社交</a><a href="/hunters" class="a_all" target="_blank">全部</a>      </div>
+    </div>
+    <div class="wonderful-part">
+      <h3> <i class="icon-industry"></i> 设计灵感 </h3>
+      <div class="part-content">
+        <a class="" href="https://uiiiuiii.com/inspiration" target="_blank">灵感首页</a><a class="" href="https://uiiiuiii.com/inspirations/banner" target="_blank">Banner设计</a><a class="" href="https://uiiiuiii.com/inspirations/poster" target="_blank">海报设计</a><a class="" href="https://uiiiuiii.com/inspirations/logo" target="_blank">Logo设计</a><a class="" href="https://uiiiuiii.com/inspirations/ui" target="_blank">UI设计</a><a class="" href="https://uiiiuiii.com/inspirations/illustrations" target="_blank">插画绘画</a><a class="" href="https://uiiiuiii.com/inspirations/fontdesign" target="_blank">字体设计</a><a class="" href="https://uiiiuiii.com/inspirations/featured/motto" target="_blank">每日一签</a><a class="a_all" href="https://uiiiuiii.com/inspirations/featured" target="_blank">热门灵感</a>      </div>
+    </div>
+    <div class="wonderful-part">
+      <h3> <i class="icon-2-inspiration"></i> 软件教程 </h3>
+      <div class="part-content-flex">
+        <div class="item"><a href="https://uiiiuiii.com/photoshop" target="_blank"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/10/sdc-h-ps.png)"></i><span>PS教程</span></a></div><div class="item"><a href="https://uiiiuiii.com/illustrator" target="_blank"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/10/sdc-h-ai.png)"></i><span>AI教程</span></a></div><div class="item"><a href="https://uiiiuiii.com/aftereffects" target="_blank"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/10/sdc-h-ae.png)"></i><span>AE教程</span></a></div><div class="item"><a href="https://uiiiuiii.com/cinema4d/12121653.html" target="_blank"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/10/sdc-h-c4d.png)"></i><span>C4D教程</span></a></div><div class="item"><a href="https://uiiiuiii.com/knowledge/121211571.html" target="_blank"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/10/sdc-h-sketch.png)"></i><span>Sketch</span></a></div><div class="item"><a href="https://uiiiuiii.com/knowledge/1212122079.html" target="_blank"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/10/sdc-h-pr.jpg)"></i><span>视频剪辑</span></a></div><div class="item"><a href="https://uiiiuiii.com/knowledge/121212401.html" target="_blank"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/10/sdc-h-lr.jpg)"></i><span>Lr教程</span></a></div><div class="item"><a href="https://uiiiuiii.com/draw" target="_blank"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/10/sdc-h-draw.jpg)"></i><span>手绘教程</span></a></div>      </div>
+    </div>
+  </div>
+</section>
+<section class="widget widget-post-related hide_sm">
+  <h2 class="section-title"> 相关文章 </h2>
+  <div class="section-content">
+    <div class="item"><a href="https://www.uisdc.com/quick-reading-weekly-vol42" target="_blank"><div class="num"> <i class="btn btn-default-border">1</i> </div><h2>壹周速读：开工一周，最值得收藏的干货在这里！</h2><div class="item-thumb h-scale"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/02/quick-reading-weekly-vol42.jpg)"></i></div></a></div><div class="item"><a href="https://www.uisdc.com/quick-reading-weekly-vol19" target="_blank"><div class="num"> <i class="btn btn-default-border">2</i> </div><h2>壹周速读：2019年年中设计趋势完全总结</h2><div class="item-thumb h-scale"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/covers/201908/quick-reading-weekly-vol19-b.jpg)"></i></div></a></div><div class="item"><a href="https://www.uisdc.com/quick-reading-weekly-vol41" target="_blank"><div class="num"> <i class="btn btn-default-border">3</i> </div><h2>壹周速读：设计师远程办公指南</h2><div class="item-thumb h-scale"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/02/quick-reading-weekly-vol41.jpg)"></i></div></a></div><div class="item"><a href="https://www.uisdc.com/quick-read-weekly-vol02" target="_blank"><div class="num"> <i class="btn btn-default-border">4</i> </div><h2>你最想要的，都在壹周速读 vol.02</h2><div class="item-thumb h-scale"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/covers/201903/quick-read-weekly-vol02-b.jpg)"></i></div></a></div>  </div>
+</section>
+<section class="widget widget-show">
+  <div class="kind"><div class="spark_rm">
+<span class="hidden"><a href="https://xue.uisdc.com/detail?id=5d133b27d8071825ebce60c3&c=content-Patch" target="_blank" class="has_border"><img alt="优设"  src="https://image.uisdc.com/wp-content/uploads/2020/08/xiaochan-dkt-0823.jpg"></a></span>
+<span class="hidden"><a href="https://xue.uisdc.com/detail?c=Navigation-2&id=5d133b8ad8071825ebce60c6&c=content-Patch" target="_blank" class="has_border"><img alt="优设"  src="https://image.uisdc.com/wp-content/uploads/2020/08/mushu-ui-dkt-081624.jpg"></a></span>
+</div></div></section>
+    <section class="widget widget-article-menu hidden" id="article_menu"></section>
+    <div class="sidebar-fixed-start"></div>
+    <div class="sidebar-fixed" data-component="autofixed" data-start=".sidebar-fixed-start" data-end=".post-content" data-top="70"> </div>
+  </div>
+</div>
+<div class="post-footer">
+  <div class="container">
+    <div class="row flex">
+      <div class="pf-item hao">
+        <div class="title"> 网址导航 </div>
+        <div class="cont">
+          <div class="item">
+            <a href="https://hao.uisdc.com" target="_blank">
+              <div class="item-icon"> <i class="icon-service"></i> </div>
+              <div class="item-content">
+                <h3>设计导航</h3>
+                <h4>精选520个设计师专用网站</h4>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://color.uisdc.com" target="_blank">
+              <div class="item-icon"> <i class="icon-n-color"></i> </div>
+              <div class="item-content">
+                <h3>配色工具</h3>
+                <h4>网罗380个精致色彩名</h4>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://hao.uisdc.com/book" target="_blank">
+              <div class="item-icon"> <i class="icon-n-book"></i> </div>
+              <div class="item-content">
+                <h3>图书导航</h3>
+                <h4>推荐66本优秀设计书籍</h4>
+              </div>
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://hao.uisdc.com/shop" target="_blank">
+              <div class="item-icon"> <i class="icon-n-shopping"></i> </div>
+              <div class="item-content">
+                <h3>电商导航</h3>
+                <h4>收录78个国内外电商平台</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="pf-item hot">
+        <div class="title"> 行业热点 </div>
+        <div class="cont cont1">
+          <a href="https://www.uisdc.com/uisdc-first-free-font" target="_blank">优设发布免费可商用字<i class="hot-icon"></i></a><a href="https://www.uisdc.com/behance-2020-design-trend" target="_blank">2020年设计趋势分析<i class="hot-icon"></i></a><a href="https://www.uisdc.com/rhyme-assistant" target="_blank">Cool！文案神器</a><a href="https://www.uisdc.com/uisdc-second-free-font" target="_blank">优设第2款免费字<i class="hot-icon"></i></a><a href="https://www.uisdc.com/zt/to-b-product-design" target="_blank">B端设计该怎么做</a><a href="https://www.uisdc.com/zt/job-interview" target="_blank">求职面试通关指南<i class="hot-icon"></i></a><a href="https://www.uisdc.com/200-models-free-commercial-fonts" target="_blank">免费字体打包下载</a><a href="https://www.uisdc.com/zt/free-photo" target="_blank">免费图库合集</a><a href="https://www.uisdc.com/zt/ux-rules" target="_blank">史上最全的设计方法</a>        </div>
+        <div class="title"> 设计工具 </div>
+        <div class="cont">
+          <a href="https://www.uisdc.com/adobe-cc-2019-new-function" target="_blank">Adobe全家桶</a><a href="https://www.uisdc.com/magicavoxel" target="_blank">比搭积木还简单的3D建模软件<i class="hot-icon"></i></a><a href="https://www.uisdc.com/9-planets-builder" target="_blank">酷炫到爆炸的星球生成器</a><a href="https://www.uisdc.com/pslkzs" target="_blank">快速做图表的 PS 拉框助手</a><a href="https://www.uisdc.com/remove-bg" target="_blank">在线抠图超简单</a><a href="https://www.uisdc.com/10-design-artifact-2" target="_blank">10 个在线免费设计神器<i class="hot-icon"></i></a>        </div>
+
+      </div>
+      <div class="pf-item talk">
+        <div class="title"> 设计师都在聊 </div>
+        <div class="cont">
+          <div class="item"><a href="https://www.uisdc.com/talk/121207382574.html" target="_blank"><span class="num btn btn-orange-border">1</span><h2>UI设计师在工作中怎么获取用户画像？</h2><h4>5 位设计师回答</h4></a></div><div class="item"><a href="https://www.uisdc.com/talk/121207382575.html" target="_blank"><span class="num btn btn-orange-border">2</span><h2>做海报时，不知道从何下手要怎么办？</h2><h4>4 位设计师回答</h4></a></div><div class="item"><a href="https://www.uisdc.com/talk/121207382223.html" target="_blank"><span class="num btn btn-orange-border">3</span><h2>学视觉传达快毕业了，设计找工作哪个方向好？</h2><h4>7 位设计师回答</h4></a></div><div class="item"><a href="https://www.uisdc.com/talk/121207381475.html" target="_blank"><span class="num btn btn-orange-border">4</span><h2>程序员想转行做设计，有没有学习交流的群可以加？</h2><h4>8 位设计师回答</h4></a></div>        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer-fav">
+  <div class="container">
+    <div class="fl site-info">
+      <h2> <a href="/about" target="_blank"> 优设网 uisdc.com </a> </h2>
+      <div class="site-p">
+        <a href="/about" target="_blank">
+          <p>2012年成立至今，是国内极具人气的设计师交流学习平台</p>
+          <p>看设计文章，学软件教程，找灵感素材，尽在优设网</p>
+        </a>
+      </div>
+    </div>
+    <div class="fr site-fav">
+      <span class="btn-group"><a href="#" class="btn btn-fav btn-orange btn-orange-light hide_sm"> <i class="icon-1-heart-border"></i> 收藏本站 </a><a href="https://www.uisdc.com" class="btn btn-orange"> <i class="icon-return"></i> 返回首页 </a></span>    </div>
+    <div class="site-girl">
+      <a href="https://uiiiuiii.com" target="_blank">
+        <div class="girl fl"> <i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/10/ling.png)"></i> </div>
+        <div class="girl-info hide_md">
+          <h4> 优设基础训练营 </h4>
+          <h4> @林雅诺 </h4>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="footer-navi">
+  <div class="container">
+    <div class="about widget fl">
+      <h2 class="title">关于我们</h2>
+      <p>优设是国内极具人气的设计师平台，2012 年成立至今，一直专注于设计师的学习成长交流。 我们通过优设网、优优教程网沉淀优质设计知识的同时，更率先试水新媒体领域。目前旗下媒体矩阵包括：微博@优秀网页设计、微信公众号@优秀网页设计、抖音号@优设PS大神、@优设AI大神等，全网粉丝量过千万。</p>
+    </div>
+    <div class="navis fl hide_sm">
+  <div class="navi">
+    <h2 class="title">热门频道</h2>
+    <ul>
+      <li> <a href="/zt"  target="_blank">文章专题</a> </li>
+      <li> <a href="/talk"  target="_blank">热门话题</a> </li>
+      <li> <a href="https://event.uisdc.com"  target="_blank">设计大赛</a> </li>
+      <li> <a href="https://uiiiuiii.com"  target="_blank">免费教程</a> </li>
+      <li> <a href="https://hao.uisdc.com"  target="_blank">设计导航</a> </li>
+      <li> <a href="https://xue.uisdc.com"  target="_blank">设计课程</a> </li>
+    </ul>
+  </div>
+  <div class="navi">
+    <h2 class="title">设计灵感</h2>
+    <ul>
+      <li> <a href="https://uiiiuiii.com/inspirations/featured"  target="_blank">主编推荐</a> </li>
+      <li> <a href="https://uiiiuiii.com/inspirations/banner"  target="_blank">Banner设计</a> </li>
+      <li> <a href="https://uiiiuiii.com/inspirations/poster"  target="_blank">海报设计</a> </li>
+      <li> <a href="https://uiiiuiii.com/inspirations/logo"  target="_blank">Logo设计</a> </li>
+      <li> <a href="https://uiiiuiii.com/inspirations/illustrations"  target="_blank">插画绘画</a> </li>
+      <li> <a href="https://uiiiuiii.com/inspirations/fontdesign"  target="_blank">字体设计</a> </li>
+    </ul>
+  </div>
+  <div class="navi">
+    <h2 class="title">支持与服务</h2>
+    <ul>
+      <li> <a href="/contact" target="_blank">联系我们</a> </li>
+      <li> <a href="/about" target="_blank">广告投放</a> </li>
+      <li> <a href="/about" target="_blank">入驻优创</a> </li>
+      <li> <a href="/uisdc-submit-specifications"  target="_blank">作者投稿</a> </li>
+      <li> <a href="/friendlink"  target="_blank">友链申请</a> </li>
+      <li> <a href="https://wpa.qq.com/msgrd?v=3&uin=2650232288&site=qq&menu=yes"  target="_blank">意见反馈</a> </li>
+    </ul>
+  </div>
+</div>
+<div class="ewms widget fr hide_sm">
+  <ul class="clearfix">
+    <li>
+      <div class="ico">
+        <i class="icon-sina"></i>
+        <h4>优设微博</h4>
+      </div>
+      <div class="ewm-content hide ewm-weibo">
+        <div class="ewm-main clearfix">
+          <div class="items">
+          <div class="item"><a href="https://weibo.com/uidesign" target="_blank"><span class="item-ico">@</span><h2>优秀网页设计</h2><h4>380W粉丝！每日更新设计干货</h4></a></div><div class="item"><a href="https://weibo.com/uisdc2012" target="_blank"><span class="item-ico">@</span><h2>优设</h2><h4>强烈推荐！优设官方品牌微博</h4></a></div><div class="item"><a href="https://weibo.com/uiiiuiii" target="_blank"><span class="item-ico">@</span><h2>优优教程网 </h2><h4>官方微博，海量教程看不完</h4></a></div><div class="item"><a href="https://weibo.com/uisdcjichuying" target="_blank"><span class="item-ico">@</span><h2>优设基础训练营</h2><h4>零基础入门，带你成为软件高手</h4></a></div>        </div>
+              </div>
+    </li>
+    <li>
+      <div class="ico">
+        <i class="icon-douyin"></i>
+        <h4>优设抖音</h4>
+      </div>
+      <div class="ewm-content hide ewm-douyin">
+        <div class="ewm-main clearfix">
+          <div class="ewm-douyin-1 fl">
+            <div class="thumb-div"> <i class="thumb" style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/10/douyin_ps.jpg);"></i> </div>
+            <h4>优设PS大神</h4>
+            <h5>抖音号：UISDCPS</h5>
+          </div>
+          <div class="ewm-douyin-2 fr">
+            <div class="thumb-div"> <i class="thumb" style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/10/douyin-ai.jpg);"></i> </div>
+            <h4>优设AI大神</h4>
+            <h5>抖音号：UISDCAI</h5>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="ico">
+        <i class="icon-wechat"></i>
+        <h4>优设微信</h4>
+      </div>
+      <div class="ewm-content hide ewm-wechat">
+        <div class="ewm-main clearfix">
+          <div class="thumb-div fl"> <i class="thumb" style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/01/wechat.png);"></i> </div>
+          <h4>每天官微五分钟</h4>
+          <h4>一年萌新变大神</h4>
+          <h4> <span> <i class="icon-wechat-1"></i> 扫码关注 </span> </h4>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <div class="like">
+    <strong>1000W</strong>
+    <h3>优设新媒体矩阵等你来关注</h3>
+  </div>
+</div>
+  </div>
+  <div class="container container-bq">
+    <div class="bands ">
+      <ul>
+        <li> <a href="https://www.uisdc.com" class="thumb band band-uisdc" target="_blank"> <span class="hidden">优设</span> </a> </li>
+        <li> <a href="https://uiiiuiii.com" class="thumb band band-uiii" target="_blank"> <span class="hidden">优优教程网</span> </a> </li>
+        <li> <a href="https://xue.uisdc.com" class="thumb band band-uisdc-xue" target="_blank"> <span class="hidden">优设大课堂</span> </a> </li>
+        <li> <a href="https://hao.uisdc.com" class="thumb band band-uisdc-hao" target="_blank"> <span class="hidden">设计师导航</span> </a> </li>
+                  <li> <a href="https://www.uisdc.com/hunters" class="thumb band band-uisdc-hunter" target="_blank"> <span class="hidden">细节猎人</span> </a> </li>
+          <li> <a href="https://weibo.com/uisdcjichuying" class="thumb band band-uisdc-basic" target="_blank"> <span class="hidden">优设训练营</span> </a> </li>
+              </ul>
+    </div>
+    <div class="qqgroup fr hide_sm">
+      <a href="#"> <i class="icon-QQ"></i> 优设官方QQ群在此 </a>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="footer-colors"></div>
+  <div class="footer-colors colors-shadow"></div>
+  <div class="container">
+  <div class="friendlinks hide_sm"><h6>优设推荐：</h6><ul class="friendlinks-ul"><li><a href="https://www.uisdc.com/h5-ui-iphonex-adaptation" title="iPhone x 适配" target="_blank">iPhone 适配</a></li>
+<li><a href="https://www.uisdc.com/category/special/featured" title="热门设计文章" target="_blank">热门设计文章</a></li>
+<li><a href="https://www.uisdc.com/category/site-recommend" title="酷站" target="_blank">酷站</a></li>
+<li><a href="https://www.uisdc.com/tag/%E5%9B%BE%E5%BA%93" title="高清图片素材网站" target="_blank">高清图片素材网站</a></li>
+<li><a href="https://www.uisdc.com/tag/%E7%B4%A0%E6%9D%90%E4%B8%8B%E8%BD%BD" title="素材下载" target="_blank">素材下载</a></li>
+<li><a href="https://www.uisdc.com/photoshop-matting-techniques" title="PS抠图" target="_blank">PS抠图</a></li>
+<li><a href="https://www.uisdc.com/tag/ppt%E6%A8%A1%E6%9D%BF" title="PPT模版" target="_blank">PPT模版</a></li>
+<li><a href="https://www.uisdc.com/category/hot-download/texture-and-background" title="纹理下载" target="_blank">纹理下载</a></li>
+<li><a href="https://www.uisdc.com/category/hot-download/fonts-download" title="字体下载" target="_blank">字体下载</a></li>
+<li><a href="https://www.uisdc.com/tgideas-wechat-app-development" title="微信小程序开发" target="_blank">微信小程序开发</a></li>
+<li><a href="https://www.uisdc.com/category/special/interview" title="设计师专访" target="_blank">设计师专访</a></li>
+<li><a href="https://www.uisdc.com/tag/%E9%85%8D%E8%89%B2" title="配色" target="_blank">配色</a></li>
+<li><a href="https://www.uisdc.com/tag/鹿班设计" title="鹿班设计系统" target="_blank">鹿班设计系统</a></li>
+<li><a href="https://www.uisdc.com/tag/ps%E6%8F%92%E4%BB%B6" title="ps插件" target="_blank">ps插件</a></li>
+<li><a href="https://www.uisdc.com/zt/redesign" title="如何改版" target="_blank">如何改版</a></li>
+<li><a href="https://www.uisdc.com/category/hot-download/tools-download" title="设计软件" target="_blank">设计软件</a></li>
+<li><a href="https://www.uisdc.com/tag/mockups" title="样机素材" target="_blank">样机素材</a></li>
+<li><a href="https://www.uisdc.com/tag/sketch" title="Sketch" target="_blank">Sketch</a></li>
+<li><a href="https://www.uisdc.com/designer-booklist-readingnotes" title="设计师图书" target="_blank">设计师图书</a></li>
+<li><a href="https://hao.uisdc.com/book/" title="设计师书单" target="_blank">设计师书单</a></li>
+<li><a href="https://hao.uisdc.com/" title="设计导航" target="_blank">设计师必备网站</a></li>
+<li><a href="https://www.uisdc.com/news" title="设计导航" target="_blank">设计头条</a></li>
+<li><a href="https://www.uisdc.com/category/lecture-of-design" title="设计公开课" target="_blank">设计公开课</a></li>
+<li><a href="https://xue.uisdc.com/" title="设计师培训" target="_blank">设计师培训</a></li>
+<li><a href="https://www.uisdc.com/ppt-learn-guide" title="ppt学习教程" target="_blank">ppt学习教程</a></li>
+<li><a href="https://www.uisdc.com/ios-11-design-guideline" title="iOS 11 学习指南" target="_blank">iOS 11 学习指南</a></li>
+<li><a href="https://www.uisdc.com/tag/ps%E6%8A%80%E5%B7%A7" title="PS技巧" target="_blank">PS技巧</a></li>
+<li><a href="https://www.uisdc.com/category/uiicon/logos" title="Logo设计" target="_blank">Logo设计</a></li>
+<li><a href="https://www.uisdc.com/tag/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1" title="网页设计" target="_blank">网页设计</a></li>
+<li><a href="https://www.uisdc.com/different-city-designer-salary" title="设计师薪水" target="_blank">设计师薪水</a></li>
+<li><a href="https://www.uisdc.com/designer-self-study-2" title="设计自学" target="_blank">设计自学</a></li>
+<li><a href="https://www.uisdc.com/" title="优设网" target="_blank">优设网</a></li>
+<li><a href="https://uiiiuiii.com/" title="优优网" target="_blank">优优网</a></li>
+<li><a href="https://www.uisdc.com/" title="设计师联盟" target="_blank">设计师联盟</a></li>
+<li><a href="https://www.uisdc.com/" title="优秀设计" target="_blank">优秀设计</a></li>
+<li><a href="https://www.uisdc.com/" title="设计网站" target="_blank">设计网站</a></li>
+<li><a href="https://www.uisdc.com/" title="网页设计联盟" target="_blank">网页设计联盟</a></li>
+<li><a href="https://www.uisdc.com/" title="优秀设计" target="_blank">优秀设计</a></li>
+<li><a href="https://www.uisdc.com/tag/%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1" title="交互设计" target="_blank">交互设计</a></li>
+<li><a href="https://www.uisdc.com/tag/%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1%E5%B8%88" title="平面设计师" target="_blank">平面设计师</a></li>
+<li><a href="https://www.uisdc.com/tag/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%87%AA%E5%AD%A6" title="自学网" target="_blank">自学网</a></li>
+<li><a href="https://www.uisdc.com/tag/%E6%8A%A0%E5%9B%BE%E5%B7%A5%E5%85%B7" title="在线抠图" target="_blank">在线抠图</a></li>
+<li><a href="https://www.uisdc.com/how-to-learn-ps" title="ps新手入门教程" target="_blank">ps新手入门教程</a></li>
+<li><a href="https://www.uisdc.com/tag/%E5%9B%BE%E6%A0%87%E4%B8%8B%E8%BD%BD" title="图标下载" target="_blank">图标下载</a></li>
+<li><a href="https://www.uisdc.com/tag/%E6%B1%82%E8%81%8C%E7%AE%80%E5%8E%86" title="设计求职简历" target="_blank">设计求职简历</a></li>
+<li><a href="https://www.uisdc.com/tag/%E8%81%8C%E5%9C%BA%E8%A7%84%E5%88%92" title="设计师职场规划" target="_blank">设计师职场规划</a></li>
+<li><a href="https://www.uisdc.com/tag/%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BF" title="设计简历模版" target="_blank">设计简历模版</a></li>
+<li><a href="https://www.uisdc.com/zt/films-poster-design" title="电影海报设计" target="_blank">电影海报设计</a></li>
+<li><a href="https://www.uisdc.com/zt/banner-design" title="Banner设计" target="_blank">Banner设计</a></li>
+<li><a href="https://www.uisdc.com/tag/app%E8%AE%BE%E8%AE%A1" title="App设计" target="_blank">App设计</a></li>
+<li><a href="https://www.uisdc.com/tag/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97" title="设计学习" target="_blank">设计学习</a></li>
+<li><a href="https://www.uisdc.com/tag/%E8%AE%BE%E8%AE%A1%E5%B8%88%E8%A1%A8%E6%83%85%E5%8C%85" title="设计师表情包" target="_blank">设计师表情包</a></li></ul></div><div class="copyright">
+  <p>
+    <i class="asline"> Copyright &copy; 2020 <strong> <a class="site-link" href="https://www.uisdc.com" title="优设-UISDC" rel="home"><span>优设-UISDC</span></a></strong> </i>
+    <i class="asline hide_sm">- 优设网官方微信号：youshege - </i>
+    <i class="asline hide_sm"> <a target="_blank" href="http://www.beian.miit.gov.cn">鄂ICP备16005435号-1 </a>
+    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42018502001134"> 鄂公网安备 42018502001134号 </a> </i>
+  </p>
+</div>
+  </div>
+</div>
+<div class="fixed-right">
+  <div class="menus">
+        <span class="item hide_sm"> <a href="https://wpa.qq.com/msgrd?v=3&uin=2650232288&site=qq&menu=yes" target="_blank"> <i class="icon-comme"></i> </a> </span>
+    <span class="item ewm hide_sm"> <i class="icon-ewm"></i>
+      <div class="code-div">
+        <div class="ewmDiv">
+          <div class="ewm-item ewm-wechat">
+            <div class="code-wrap">
+              <div class="code" style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/01/wechat.png);"></div>
+            </div>
+            <div class="ewm-main">
+              <p>每天官微五分钟<br>一年萌新变大神</p>
+              <h5> <i class="icon-wechat"></i> 扫码关注 </h5>
+            </div>
+          </div>
+          <div class="ewm-item ewm-weibo">
+            <a href="https://weibo.com/uidesign" target="_blank">
+              <div class="code-wrap">
+                <div class="code" style="background-image:url(https://image.uisdc.com/wp-content/uploads/2019/01/weibo.png);"></div>
+              </div>
+              <div class="ewm-main">
+                <p>每天10篇设计干货<br>300万设计师关注！</p>
+                <h5>  <i class="icon-sina"></i> 访问官方微博 </h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+  <div class="gotop">
+    <a href="#" class="go_top item"> <i class="icon-top2"></i> </a>
+  </div>
+</div>
+<div class="part-dropdown" id="allposts_dropdown">
+  <div class="container">
+    <div class="dropdown-content">
+      <div class="main">
+        <section class="dropdown-section dropdown-allposts">
+          <div class="section-content">
+            <div class="item"><a href="/archives" target="_blank"><i class="icon-allposts"></i><h3>全部文章</h3><h5>12261篇</h5></a></div><div class="item"><a href="https://www.uisdc.com/category/view" target="_blank"><i class="icon-article"></i><h3>新视野</h3><h5>384篇</h5></a></div><div class="item"><a href="https://www.uisdc.com/category/uiicon" target="_blank"><i class="icon-ui"></i><h3>UI</h3><h5>1063篇</h5></a></div><div class="item"><a href="https://www.uisdc.com/category/element-of-web-ui" target="_blank"><i class="icon-web"></i><h3>网页</h3><h5>280篇</h5></a></div><div class="item"><a href="https://www.uisdc.com/category/graphic" target="_blank"><i class="icon-graphic"></i><h3>平面</h3><h5>932篇</h5></a></div><div class="item"><a href="https://www.uisdc.com/category/draw" target="_blank"><i class="icon-painting"></i><h3>手绘</h3><h5>113篇</h5></a></div><div class="item"><a href="https://www.uisdc.com/category/e-commerce" target="_blank"><i class="icon-e-commerce"></i><h3>电商</h3><h5>140篇</h5></a></div><div class="item"><a href="https://www.uisdc.com/category/interaction" target="_blank"><i class="icon-interactive"></i><h3>交互</h3><h5>430篇</h5></a></div><div class="item"><a href="https://www.uisdc.com/category/product" target="_blank"><i class="icon-pm"></i><h3>产品</h3><h5>1143篇</h5></a></div><div class="item"><a href="https://www.uisdc.com/category/hot-download" target="_blank"><i class="icon-download"></i><h3>下载</h3><h5>359篇</h5></a></div><div class="item"><a href="https://www.uisdc.com/category/tools-download" target="_blank"><i class="icon-site"></i><h3>神器推荐</h3><h5>683篇</h5></a></div><div class="item"><a href="https://www.uisdc.com/category/work-blueprint" target="_blank"><i class="icon-experience"></i><h3>职场</h3><h5>965篇</h5></a></div>          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="part-dropdown" id="hotcats_dropdown">
+  <div class="container">
+    <div class="dropdown-content">
+      <div class="main">
+        <section class="dropdown-section dropdown-hotcats">          <div class="section-content">
+            <div class="item"><a href="/zt" target="_blank"><i class="icon-subject"></i><h3>设计专题</h3><h4>热门设计知识精挑细选</h4></a></div><div class="item"><a href="/hunters" target="_blank"><i class="icon-hunter"></i><h3>细节猎人</h3><h4>1分钟小短文揣摩设计真谛</h4></a></div><div class="item"><a href="/news" target="_blank"><i class="icon-newspaper"></i><h3>优设读报</h3><h4>行业资讯一站知晓</h4></a></div><div class="item"><a href="/talk" target="_blank"><i class="icon-topic"></i><h3>设计话题</h3><h4>高手大咖在线答疑解惑</h4></a></div><div class="item"><a href="/gallery" target="_blank"><i class="icon-1-bang"></i><h3>优设琅琊榜</h3><h4>顶尖设计作品聚集地</h4></a></div><div class="item"><a href="/category/hangye" target="_blank"><i class="icon-toppost"></i><h3>行业新闻</h3><h4>行业大事小事全知道</h4></a></div><div class="item"><a href="https://event.uisdc.com/" target="_blank"><i class="icon-event"></i><h3>设计大赛</h3><h4>专业承办设计赛事活动</h4></a></div><div class="item"><a href="/job" target="_blank"><i class="icon-1-ping"></i><h3>求职招聘</h3><h4>理想岗位等你选</h4></a></div>          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="part-dropdown" id="hao_dropdown">
+  <div class="container">
+    <div class="dropdown-content">
+      <div class="main">
+        <section class="dropdown-section dropdown-hotcats">
+          <div class="section-content">
+            <div class="item"><a href="https://hao.uisdc.com/" target="_blank"><i class="icon-n-design"></i><h3>设计导航</h3><h4>精选520个设计师网站</h4></a></div><div class="item"><a href="https://hao.uisdc.com/book" target="_blank"><i class="icon-n-book"></i><h3>图书导航</h3><h4>高分必读设计书籍大全</h4></a></div><div class="item"><a href="https://hao.uisdc.com/shop" target="_blank"><i class="icon-n-shopping"></i><h3>电商导航</h3><h4>全球顶尖电商网站合集</h4></a></div><div class="item"><a href="https://color.uisdc.com/" target="_blank"><i class="icon-n-color"></i><h3>色彩导航</h3><h4>中日传统色彩一网打尽</h4></a></div>          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="part-dropdown" id="xue_dropdown">
+  <div class="container">
+    <div class="dropdown-content">
+      <div class="main">
+        <section class="dropdown-section dropdown-hotcats">
+          <div class="section-content">
+            <div class="item"><a href="https://xue.uisdc.com/" target="_blank"><i class="icon-course"></i><h3>优设大课堂</h3><h4>专业在线系统学习平台</h4></a></div><div class="item"><a href="https://uiiiuiii.com/other/1212116455.html" target="_blank"><i class="icon-tool"></i><h3>基础训练营</h3><h4>PS AI AE 30日零基础特训</h4></a></div><div class="item"><a href="https://pro.uisdc.com/index" target="_blank"><i class="icon-private"></i><h3>优设私房课</h3><h4>易学易懂高性价比小课</h4></a></div><div class="item"><a href="/category/lecture-of-design" target="_blank"><i class="icon-open-class"></i><h3>设计公开课</h3><h4>顶尖设计高手免费公开课</h4></a></div>          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="part-dropdown" id="uiii_dropdown">
+  <div class="container">
+    <div class="dropdown-content">
+      <div class="main">
+        <section class="dropdown-section dropdown-hotcats">
+                    <div class="section-content">
+            <div class="item"><a href="https://uiiiuiii.com/" target="_blank"><i class="icon-course"></i><h3>学教程</h3><h4>3000+免费教程在线观看</h4></a></div><div class="item"><a href="https://uiiiuiii.com/inspiration" target="_blank"><i class="icon-1-inspiration"></i><h3>找灵感</h3><h4>每日都有新灵感</h4></a></div><div class="item"><a href="https://uiiiuiii.com/tools" target="_blank"><i class="icon-Software"></i><h3>找软件</h3><h4>省时高效的设计神器都在这</h4></a></div><div class="item"><a href="https://uiiiuiii.com/knowledge" target="_blank"><i class="icon-path"></i><h3>知识树</h3><h4>热门软件零基础入门</h4></a></div>          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="part-dropdown dropdown-search" id="search_dropdown">
+  <div class="mark"> </div>
+  <div class="container">
+    <div class="dropdown-content">
+      <div class="search-content">
+        <h2>搜索</h2>
+        <div class="form">
+          <form class="" action="https://www.uisdc.com" method="get" autocomplete="off">
+            <input type="text" class="txt" name="s" data-placeholder="请输入想要搜索的内容" value="">
+            <button type="submit" class="btn"> <i class="icon-search"></i> 搜索</button>
+            <i class="ji-icon"></i>
+          </form>
+        </div>
+        <div class="search-keywords">
+          <a href="https://www.uisdc.com?s=优设标题黑">优设标题黑</a><a href="https://www.uisdc.com?s=优设好身体">优设好身体</a><a href="https://www.uisdc.com?s=Neumorphism">Neumorphism</a><a href="https://www.uisdc.com?s=全历史">全历史</a><a href="https://www.uisdc.com?s=羚珑">羚珑</a><a href="https://www.uisdc.com?s=Banner 设计">Banner 设计</a><a href="https://www.uisdc.com?s=苹果">苹果</a><a href="https://www.uisdc.com?s=sketch">sketch</a><a href="https://www.uisdc.com?s=EXO">EXO</a><a href="https://www.uisdc.com?s=免费商用字体">免费商用字体</a><a href="https://www.uisdc.com?s=花瓣">花瓣</a><a href="https://www.uisdc.com?s=自学指南">自学指南</a><a href="https://www.uisdc.com?s=孟菲斯">孟菲斯</a><a href="https://www.uisdc.com?s=文字云">文字云</a><a href="https://www.uisdc.com?s=配色">配色</a><a href="https://www.uisdc.com?s=鹿班">鹿班</a><a href="https://www.uisdc.com?s=设计规范">设计规范</a><a href="https://www.uisdc.com?s=改版">改版</a><a href="https://www.uisdc.com?s=18种设计风格">18种设计风格</a><a href="https://www.uisdc.com?s=VR设计">VR设计</a><a href="https://www.uisdc.com?s=深色模式">深色模式</a>        </div>
+        <div class="history">
+          <h3>历史记录 <span class="sub btn-remove-history clear-all-history">清除记录</span> </h3>
+          <div class="history-content">
+            <ul id="search_history"> </ul>
+          </div>
+        </div>
+        <div class="recent">
+          <h3>近期热门</h3>
+          <div class="recent-content">
+            <div class="items">
+              <div class="item"><div class="post-item"><a href="https://www.uisdc.com/adobe-color" target="_blank"><div class="item-thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/07/uisdc-banner-20200730-1.jpg)"></i></div><div class="item-main"><h4>我删除了所有配色网站，只留下这一个</h4><h5>37737位设计师在看</h5></div></a></div></div><div class="item"><div class="post-item"><a href="https://www.uisdc.com/art-toys-trend" target="_blank"><div class="item-thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-isux-20200806banner.png)"></i></div><div class="item-main"><h4>腾讯万字干货！2020-2021 设计趋势报告：潮玩篇</h4><h5>22892位设计师在看</h5></div></a></div></div><div class="item"><div class="post-item"><a href="https://www.uisdc.com/light-and-shadow" target="_blank"><div class="item-thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-banner-20200803-3.jpg)"></i></div><div class="item-main"><h4>这样设计光影轻拟物，想不脱颖而出都难！</h4><h5>18637位设计师在看</h5></div></a></div></div><div class="item"><div class="post-item"><a href="https://www.uisdc.com/why-qq-second" target="_blank"><div class="item-thumb"><i class="thumb " style="background-image:url(https://image.uisdc.com/wp-content/uploads/2020/08/uisdc-banner-20200805-4.jpg)"></i></div><div class="item-main"><h4>为什么在微信的阴影下，QQ依然是中国第二大APP？</h4><h5>18532位设计师在看</h5></div></a></div></div>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="dropdown-close" data-modal-id="search_dropdown"> <i class="icon-close"></i> </span>
+  </div>
+</div>
+<div class="modal-menu" id="modal_menu"><div class="modal-content"></div></div>  <script src="https://www.uisdc.com/wp-content/themes/U/ui/js/jquery.js" charset="utf-8"></script>
+    <script src="https://www.uisdc.com/wp-content/themes/U/ui/js/hammer.min.js" charset="utf-8"></script>
+  <script src="https://www.uisdc.com/wp-content/themes/U/ui/js/touchEvent.js" charset="utf-8"></script>
+  <script src="https://www.uisdc.com/wp-content/themes/U/ui/js/qrcode.js" charset="utf-8"></script>
+  <script src="https://www.uisdc.com/wp-content/themes/U/ui/js/jquery.qrcode.js" charset="utf-8"></script>
+    <script type="text/javascript">
+  var uisdc={};
+  uisdc.loginEWM="https://open.weixin.qq.com/connect/qrconnect?appid=wxb45da3659fa239c0&scope=snsapi_login&redirect_uri=https%3A%2F%2Fwww.uisdc.com%2Fajax.php%3Faction%3Dwechat_web_login%26redirect%3Dhttps%253A%252F%252Fwww.uisdc.com%252Fquick-reading-weekly-vol69&state=eafc0c405684957fde814d8402f5d511&login_type=jssdk&self_redirect=false&style=black&href=https://www.uisdc.com/wp-content/themes/U/ui/css/wxlogin.css";uisdc.loginWechatEWM="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxf2e43f74fc6a84c7&redirect_uri=https%3A%2F%2Fwww.uisdc.com%2Fajax.php%3Faction%3Dwechat_login%26redirect%3Dhttps%253A%252F%252Fwww.uisdc.com%252Fquick-reading-weekly-vol69&state=eafc0c405684957fde814d8402f5d511&response_type=code&scope=snsapi_userinfo#wechat_redirect";uisdc.loginEWMOffi="https://www.uisdc.com/wp-content/themes/U/wechat/qrcode.php";uisdc.checkLoginEWMOffi="https://www.uisdc.com/wp-content/themes/U/wechat/check_login.php";uisdc.wechatOffi="https://www.uisdc.com/ajax.php?action=wechatOffi_login";</script>
+<script src="https://www.uisdc.com/wp-content/themes/U/ui/js/web.js?v=2.5.19" charset="utf-8"></script>
+    <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https'){
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else{
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+    </script>
+    <script src="//pv.sohu.com/cityjson?ie=utf-8" charset="utf-8"></script>
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.330 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2020-08-24 12:56:33 -->
+
+<!-- super cache -->
